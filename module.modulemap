@@ -1,4 +1,4 @@
-module GlibcExtra [system] {
+module GlibcExtra  {
 	header "shim.h"
     export *
 }
