@@ -21,5 +21,10 @@ let package = Package(
                     name: "GlibcExtra",
                     dependencies: []
             ),
+
+            .testTarget(
+                    name: "GlibcExtraTests",
+                    dependencies: ["GlibcExtra"]
+            ),
         ]
 )
