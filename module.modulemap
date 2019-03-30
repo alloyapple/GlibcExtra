@@ -1,4 +1,0 @@
-module GlibcExtra  {
-	header "shim.h"
-    export *
-}

@@ -1,3 +1,10 @@
+//
+// Created by color on 3/30/19.
+//
+
+#ifndef GLIBCEXTRA_SHIM_H
+#define GLIBCEXTRA_SHIM_H
+
 #include <sys/wait.h>
 #include <string.h>
 #include <stddef.h>
@@ -26,3 +33,5 @@
 #include <pty.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+
+#endif //GLIBCEXTRA_SHIM_H
