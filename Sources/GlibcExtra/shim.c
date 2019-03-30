@@ -4,6 +4,10 @@
 
 #include "include/shim.h"
 
-int fcntl_int(int fd, int cmd, int flag) {
+int fcntl1(int fd, int cmd, int flag) {
     return fcntl(fd, cmd, flag);
+}
+
+int fcntl0(int fd, int cmd) {
+    return fcntl(fd, cmd);
 }

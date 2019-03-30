@@ -7,7 +7,7 @@ final class GlibcExtraSwiftTests: XCTestCase {
         let fd = epoll_create(1)
         XCTAssertEqual(fd, 3)
 
-        fcntl_int(0, 0, 0)
+        fcntl1(0, 0, 0)
 
     }
 
