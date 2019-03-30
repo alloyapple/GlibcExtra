@@ -34,4 +34,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
+
+int fcntl_int(int fd, int cmd, int flag);
+
 #endif //GLIBCEXTRA_SHIM_H
