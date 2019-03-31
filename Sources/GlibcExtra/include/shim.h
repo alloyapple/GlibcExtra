@@ -33,14 +33,9 @@
 #include <pty.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include "arc4random.h"
 
 int fcntl_get(int fd, int cmd);
 int fcntl_set(int fd, int cmd, int flag);
-
-void arc4random_stir(void);
-void arc4random_addrandom(unsigned char *, int);
-unsigned int arc4random(void);
-uint32_t arc4random_uniform(uint32_t upper);
-
 
 #endif //GLIBCEXTRA_SHIM_H
